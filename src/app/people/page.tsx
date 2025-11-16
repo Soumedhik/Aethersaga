@@ -364,6 +364,7 @@ const MEMBERS: Member[] = [
 	},
 	{
 		id: "sneha-kundu",
+		image: "assets/img/profile_pictures/sneha-kundu.jpeg",
 		name: "Sneha Kundu",
 		role: "Research Student",
 		focus: "Computer Vision, Reinforcement Learning, Generative AI",
