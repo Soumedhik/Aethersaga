@@ -85,9 +85,9 @@ export default async function Home() {
         </section>
       ) : null}
 
-      {news.length > 0 ? (
-        <section>
-          <HeaderWithLink title="News" href="/news" />
+      <section>
+        <HeaderWithLink title="News" href="/news" />
+        {news.length > 0 ? (
           <div
             className={`mt-4 grid gap-4 ${
               about?.data.announcements?.scrollable ? "max-h-80 overflow-y-auto pr-2" : ""
@@ -102,8 +102,10 @@ export default async function Home() {
               </div>
             ))}
           </div>
-        </section>
-      ) : null}
+        ) : (
+          <p className="mt-4 text-sm text-slate-600 dark:text-slate-300">we dont have any news to showcase</p>
+        )}
+      </section>
       {selectedPublications.length > 0 ? (
         <section>
           <HeaderWithLink title="Selected Publications" href="/publications" />
