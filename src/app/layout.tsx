@@ -19,10 +19,20 @@ const geistMono = Geist_Mono({
 const siteConfig = getSiteConfig();
 const siteSocials = getSocials();
 
+const faviconSvg = encodeURIComponent(
+  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <rect width="64" height="64" rx="12" fill="#0f172a" />
+    <text x="50%" y="55%" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#f8fafc">AS</text>
+  </svg>`
+);
+
 export const metadata: Metadata = {
   title: siteConfig.title,
   description: siteConfig.description,
   keywords: siteConfig.keywords,
+  icons: {
+    icon: `data:image/svg+xml,${faviconSvg}`,
+  },
 };
 
 export default function RootLayout({
@@ -31,7 +41,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-  <html lang={siteConfig.lang ?? "en"}>
+    <html lang={siteConfig.lang ?? "en"}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} flex min-h-screen flex-col bg-white text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100`}
       >
