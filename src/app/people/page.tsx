@@ -366,13 +366,17 @@ const MEMBERS: Member[] = [
 		id: "sneha-kundu",
 		name: "Sneha Kundu",
 		role: "Research Student",
-		focus: "Data Centric AI, Applied ML",
+		focus: "Computer Vision, Reinforcement Learning, Generative AI",
 		details: {
-			about: "Sneha prototypes data curation loops and deployment playbooks for AI products in healthcare and civic tech.",
-			researchFocus: ["Data Centric AI", "Applied Machine Learning"],
-			education: "M.Tech Candidate, SNU",
-			researchInterests: ["Dataset Engineering", "Operational ML", "Product Analytics"],
-			links: [{ label: "Email", url: "mailto:sneha.kundu@snu.edu.in" }],
+			about:
+				"Undergraduate computer science student exploring how NLP, machine learning, and AI systems can understand and generate human language while bridging data, algorithms, and practical applications.",
+			researchFocus: ["Natural Language Processing", "Machine Learning", "Artificial Intelligence"],
+			education: "B.Tech CSE, Year 3 (Section 6) – Sister Nivedita University",
+			researchInterests: ["Computer Vision", "Reinforcement Learning", "Generative AI"],
+			links: [
+				{ label: "Email", url: "mailto:skoct234@gmail.com" },
+				{ label: "LinkedIn", url: "https://www.linkedin.com/in/sneha-kundu-429488284" },
+			],
 		},
 	},
 ];
