@@ -206,7 +206,7 @@ const MEMBERS: Member[] = [
 		details: {
 			about: "Soumedhik investigates multimodal learning systems that reason jointly over vision and language cues.",
 			researchFocus: ["Computer Vision", "Natural Language Processing"],
-			education: "M.Tech Candidate, SNU",
+			education: "B.Tech",
 			researchInterests: ["Multimodal Learning", "Vision-Language Models"],
 			links: [{ label: "Email", url: "mailto:soumedhik.bharati@snu.edu.in" }],
 		},
@@ -220,7 +220,7 @@ const MEMBERS: Member[] = [
 		details: {
 			about: "Sohoomlal prototypes human-centered AI assistants for knowledge discovery across images and documents.",
 			researchFocus: ["Computer Vision", "Natural Language Processing"],
-			education: "M.Tech Candidate, SNU",
+			education: "B.Tech",
 			researchInterests: ["Generative AI", "Information Retrieval"],
 			links: [{ label: "Email", url: "mailto:sohoomlal.banerjee@snu.edu.in" }],
 		},
@@ -234,7 +234,7 @@ const MEMBERS: Member[] = [
 		details: {
 			about: "Shibam focuses on robust perception stacks for autonomous aerial and ground robots.",
 			researchFocus: ["Computer Vision", "Robotics"],
-			education: "B.Tech Honours, SNU",
+			education: "B.Tech",
 			researchInterests: ["3D Perception", "Robot Navigation"],
 			links: [{ label: "Email", url: "mailto:shibam.mandal@snu.edu.in" }],
 		},
@@ -248,7 +248,7 @@ const MEMBERS: Member[] = [
 		details: {
 			about: "Sohan builds efficient neural architectures for on-device scene understanding.",
 			researchFocus: ["Computer Vision", "Edge AI"],
-			education: "B.Tech Honours, SNU",
+			education: "B.Tech",
 			researchInterests: ["Edge Computing", "Object Detection"],
 			links: [{ label: "Email", url: "mailto:sohan.das@snu.edu.in" }],
 		},
