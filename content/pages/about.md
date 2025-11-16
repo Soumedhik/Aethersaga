@@ -6,12 +6,8 @@ subtitle: <a href='https://snuniv.ac.in' target='_blank' rel='noreferrer'>Sister
 
 profile:
   align: right
-  image: assets/img/prof_pic.jpg
+  image: assets/img/publication_preview/prof_pic.gif
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>DG Block, Action Area I,</p>
-      <p>1/2, Newtown Chakpachuria,</p>
-      <p>Kolkata, West Bengal 700156</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -44,6 +40,7 @@ research:
 ---
 
 AetherSaga AI is the applied research group born out of [Sister Nivedita University](https://snuniv.ac.in) where faculty, researchers, and students gather to imagine friendlier, smarter machines.
+We care about translating rigorous AI breakthroughs into tangible, community-focused impact.
 
 We advance the frontier of artificial intelligence by developing systems that not only process information but also acquire, reason with, and co-design tools with partners invested in education, healthcare, and sustainable cities.
 
