@@ -4,7 +4,7 @@ const sections = [
   {
     title: "1. Acceptance of Terms",
     content:
-      "By accessing the AetherSaga AI website you agree to these Terms of Service. If you do not agree, please refrain from using the site.",
+  "By accessing the Aethersaga AI website you agree to these Terms of Service. If you do not agree, please refrain from using the site.",
   },
   {
     title: "2. Research Content",
@@ -24,7 +24,7 @@ const sections = [
   {
     title: "5. Contact",
     content:
-      "For questions about these terms or to request additional permissions, contact legal@aethersaga.ai.",
+      "For questions about these terms or to request additional permissions, contact aethersaga.ai@gmail.com.",
   },
 ];
 
@@ -32,12 +32,12 @@ export default function TermsPage() {
   return (
     <div className="mx-auto flex w-full max-w-3xl flex-col gap-6 px-4 py-12 lg:px-0">
       <PageHeader
-        title="Terms of Service"
-        description="The baseline rules for using the AetherSaga AI website and its research content."
+  title="Terms of Service"
+  description="The baseline rules for using the Aethersaga AI website and its research content."
       />
       <p className="text-sm text-slate-600 dark:text-slate-400">
-        These terms provide a simple overview of how we expect the site to be used. For formal legal agreements,
-        coordinate directly with the AetherSaga AI team.
+  These terms provide a simple overview of how we expect the site to be used. For formal legal agreements,
+  coordinate directly with the Aethersaga AI team.
       </p>
       <div className="space-y-6">
         {sections.map((section) => (

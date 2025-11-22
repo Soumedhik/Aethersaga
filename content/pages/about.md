@@ -37,7 +37,7 @@ research:
       description: Exploring hybrid quantum-classical pipelines to accelerate optimization and simulation for AI workloads.
 ---
 
-AetherSaga AI is the applied research group born out of [Sister Nivedita University](https://snuniv.ac.in) where faculty, researchers, and students gather to imagine friendlier, smarter machines.
+Aethersaga AI is the applied research group born out of [Sister Nivedita University](https://snuniv.ac.in) where faculty, researchers, and students gather to imagine friendlier, smarter machines.
 We care about translating rigorous AI breakthroughs into tangible, community-focused impact.
 
 We advance the frontier of artificial intelligence by developing systems that not only process information but also acquire, reason with, and co-design tools with partners invested in education, healthcare, and sustainable cities.

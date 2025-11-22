@@ -397,7 +397,7 @@ export default function PeoplePage() {
 		<div className="mx-auto flex w-full max-w-5xl flex-col gap-10 px-4 py-12 lg:px-0">
 			<PageHeader
 				title="People"
-				description="Meet the brilliant minds driving innovation in machine learning research at AetherSaga."
+				description="Meet the brilliant minds driving innovation in machine learning research at Aethersaga."
 			/>
 
 			<section>

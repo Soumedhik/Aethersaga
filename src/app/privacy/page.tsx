@@ -4,7 +4,7 @@ const sections = [
   {
     title: "1. Information We Collect",
     content:
-      "We collect only the information you voluntarily share with AetherSaga AI, such as contact form submissions or collaboration requests. We do not automatically gather personal data beyond basic analytics used to understand overall site usage.",
+  "We collect only the information you voluntarily share with Aethersaga AI, such as contact form submissions or collaboration requests. We do not automatically gather personal data beyond basic analytics used to understand overall site usage.",
   },
   {
     title: "2. How We Use Information",
@@ -24,7 +24,7 @@ const sections = [
   {
     title: "5. Contact",
     content:
-      "If you have questions about this policy or would like your data removed, email us at privacy@aethersaga.ai.",
+      "If you have questions about this policy or would like your data removed, email us at aethersaga.ai@gmail.com.",
   },
 ];
 
@@ -33,10 +33,10 @@ export default function PrivacyPage() {
     <div className="mx-auto flex w-full max-w-3xl flex-col gap-6 px-4 py-12 lg:px-0">
       <PageHeader
         title="Privacy Policy"
-        description="How AetherSaga AI handles your information when you interact with our site."
+  description="How Aethersaga AI handles your information when you interact with our site."
       />
       <p className="text-sm text-slate-600 dark:text-slate-400">
-        AetherSaga AI is an academic research collective focused on trustworthy AI systems. We take a minimal
+  Aethersaga AI is an academic research collective focused on trustworthy AI systems. We take a minimal
         data approach and only collect information needed to respond to collaborators and maintain this site.
       </p>
       <div className="space-y-6">
