@@ -34,7 +34,7 @@ export default async function Home() {
           >
             <div className="relative w-full max-w-xs overflow-hidden">
               <Image
-                src={`/${about.data.profile.image.replace(/^\//, "")}`}
+                src={`/Aethersaga/${about.data.profile.image.replace(/^\//, "")}`}
                 alt={about.data.title ?? "Profile picture"}
                 width={320}
                 height={320}
