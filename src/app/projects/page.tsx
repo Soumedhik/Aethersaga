@@ -9,12 +9,12 @@ const PROJECTS = [
   {
     title: "EPIC Mahabharat Entity recongnition",
     description: "Novel Ensemble architectures for named entity recognition in ancient Indian literature",
-    image: "/assets/img/mahabharata.jpg",
+    image: "/Aethersaga/assets/img/mahabharata.jpg",
   },
   {
     title: "Parkinson Disease Aid Device",
     description: "Sensor-driven analytics that surface early progression patterns and support clinician review.",
-    image: "/assets/img/parkinsons.png",
+    image: "/Aethersaga/assets/img/parkinsons.png",
   },
 ];
 

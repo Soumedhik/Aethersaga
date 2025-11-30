@@ -33,7 +33,7 @@ function convertFigureInclude(source: string): string {
     const loading = loadingMatch ? loadingMatch[1] : undefined;
 
     const attributes = [
-      src ? `src="/${src.replace(/^\//, "")}"` : "",
+      src ? `src="/Aethersaga/${src.replace(/^\//, "")}"` : "",
       "alt=\"" + (alt || "Figure") + "\"",
       className ? `class="${className}"` : "",
       loading ? `loading="${loading}"` : "",
